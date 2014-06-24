@@ -1,0 +1,3 @@
+#### 说明
+
+之前做了一个留言板发现回复的textview的frame不能更改，因为用了另一个reusecell里面nested了一个textview，cell用的xib是动态frame的，最后cell的frame变了，但是textview的没变。用table嵌套一个table就可以实现了。

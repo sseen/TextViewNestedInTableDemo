@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC125D1B195949CE00E90D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D1A195949CE00E90D74 /* Foundation.framework */; };
+		AC125D1D195949CE00E90D74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D1C195949CE00E90D74 /* CoreGraphics.framework */; };
+		AC125D1F195949CE00E90D74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D1E195949CE00E90D74 /* UIKit.framework */; };
+		AC125D25195949CE00E90D74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC125D23195949CE00E90D74 /* InfoPlist.strings */; };
+		AC125D27195949CE00E90D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC125D26195949CE00E90D74 /* main.m */; };
+		AC125D2B195949CE00E90D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC125D2A195949CE00E90D74 /* AppDelegate.m */; };
+		AC125D2E195949CE00E90D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC125D2C195949CE00E90D74 /* Main.storyboard */; };
+		AC125D31195949CE00E90D74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC125D30195949CE00E90D74 /* ViewController.m */; };
+		AC125D33195949CE00E90D74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC125D32195949CE00E90D74 /* Images.xcassets */; };
+		AC125D3A195949CE00E90D74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D39195949CE00E90D74 /* XCTest.framework */; };
+		AC125D3B195949CE00E90D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D1A195949CE00E90D74 /* Foundation.framework */; };
+		AC125D3C195949CE00E90D74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC125D1E195949CE00E90D74 /* UIKit.framework */; };
+		AC125D44195949CE00E90D74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC125D42195949CE00E90D74 /* InfoPlist.strings */; };
+		AC125D46195949CE00E90D74 /* TextViewNestedInTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC125D45195949CE00E90D74 /* TextViewNestedInTableDemoTests.m */; };
+		AC125D5419594FA100E90D74 /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC125D5219594FA100E90D74 /* RootTableViewCell.m */; };
+		AC125D5519594FA100E90D74 /* RootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC125D5319594FA100E90D74 /* RootTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC125D3D195949CE00E90D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC125D0F195949CE00E90D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC125D16195949CE00E90D74;
+			remoteInfo = TextViewNestedInTableDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC125D17195949CE00E90D74 /* TextViewNestedInTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewNestedInTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC125D1A195949CE00E90D74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC125D1C195949CE00E90D74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC125D1E195949CE00E90D74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC125D22195949CE00E90D74 /* TextViewNestedInTableDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewNestedInTableDemo-Info.plist"; sourceTree = "<group>"; };
+		AC125D24195949CE00E90D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC125D26195949CE00E90D74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC125D28195949CE00E90D74 /* TextViewNestedInTableDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewNestedInTableDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AC125D29195949CE00E90D74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC125D2A195949CE00E90D74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC125D2D195949CE00E90D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC125D2F195949CE00E90D74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC125D30195949CE00E90D74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC125D32195949CE00E90D74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC125D38195949CE00E90D74 /* TextViewNestedInTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewNestedInTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC125D39195949CE00E90D74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC125D41195949CE00E90D74 /* TextViewNestedInTableDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewNestedInTableDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AC125D43195949CE00E90D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC125D45195949CE00E90D74 /* TextViewNestedInTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewNestedInTableDemoTests.m; sourceTree = "<group>"; };
+		AC125D4F19594DDB00E90D74 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		AC125D5119594FA100E90D74 /* RootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
+		AC125D5219594FA100E90D74 /* RootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
+		AC125D5319594FA100E90D74 /* RootTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC125D14195949CE00E90D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D1D195949CE00E90D74 /* CoreGraphics.framework in Frameworks */,
+				AC125D1F195949CE00E90D74 /* UIKit.framework in Frameworks */,
+				AC125D1B195949CE00E90D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC125D35195949CE00E90D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D3A195949CE00E90D74 /* XCTest.framework in Frameworks */,
+				AC125D3C195949CE00E90D74 /* UIKit.framework in Frameworks */,
+				AC125D3B195949CE00E90D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC125D0E195949CE00E90D74 = {
+			isa = PBXGroup;
+			children = (
+				AC125D5119594FA100E90D74 /* RootTableViewCell.h */,
+				AC125D5219594FA100E90D74 /* RootTableViewCell.m */,
+				AC125D5319594FA100E90D74 /* RootTableViewCell.xib */,
+				AC125D20195949CE00E90D74 /* TextViewNestedInTableDemo */,
+				AC125D3F195949CE00E90D74 /* TextViewNestedInTableDemoTests */,
+				AC125D19195949CE00E90D74 /* Frameworks */,
+				AC125D18195949CE00E90D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC125D18195949CE00E90D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D17195949CE00E90D74 /* TextViewNestedInTableDemo.app */,
+				AC125D38195949CE00E90D74 /* TextViewNestedInTableDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC125D19195949CE00E90D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D4F19594DDB00E90D74 /* Reveal.framework */,
+				AC125D1A195949CE00E90D74 /* Foundation.framework */,
+				AC125D1C195949CE00E90D74 /* CoreGraphics.framework */,
+				AC125D1E195949CE00E90D74 /* UIKit.framework */,
+				AC125D39195949CE00E90D74 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC125D20195949CE00E90D74 /* TextViewNestedInTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D29195949CE00E90D74 /* AppDelegate.h */,
+				AC125D2A195949CE00E90D74 /* AppDelegate.m */,
+				AC125D2C195949CE00E90D74 /* Main.storyboard */,
+				AC125D2F195949CE00E90D74 /* ViewController.h */,
+				AC125D30195949CE00E90D74 /* ViewController.m */,
+				AC125D32195949CE00E90D74 /* Images.xcassets */,
+				AC125D21195949CE00E90D74 /* Supporting Files */,
+			);
+			path = TextViewNestedInTableDemo;
+			sourceTree = "<group>";
+		};
+		AC125D21195949CE00E90D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D22195949CE00E90D74 /* TextViewNestedInTableDemo-Info.plist */,
+				AC125D23195949CE00E90D74 /* InfoPlist.strings */,
+				AC125D26195949CE00E90D74 /* main.m */,
+				AC125D28195949CE00E90D74 /* TextViewNestedInTableDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC125D3F195949CE00E90D74 /* TextViewNestedInTableDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D45195949CE00E90D74 /* TextViewNestedInTableDemoTests.m */,
+				AC125D40195949CE00E90D74 /* Supporting Files */,
+			);
+			path = TextViewNestedInTableDemoTests;
+			sourceTree = "<group>";
+		};
+		AC125D40195949CE00E90D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC125D41195949CE00E90D74 /* TextViewNestedInTableDemoTests-Info.plist */,
+				AC125D42195949CE00E90D74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC125D16195949CE00E90D74 /* TextViewNestedInTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC125D49195949CE00E90D74 /* Build configuration list for PBXNativeTarget "TextViewNestedInTableDemo" */;
+			buildPhases = (
+				AC125D13195949CE00E90D74 /* Sources */,
+				AC125D14195949CE00E90D74 /* Frameworks */,
+				AC125D15195949CE00E90D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewNestedInTableDemo;
+			productName = TextViewNestedInTableDemo;
+			productReference = AC125D17195949CE00E90D74 /* TextViewNestedInTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC125D37195949CE00E90D74 /* TextViewNestedInTableDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC125D4C195949CE00E90D74 /* Build configuration list for PBXNativeTarget "TextViewNestedInTableDemoTests" */;
+			buildPhases = (
+				AC125D34195949CE00E90D74 /* Sources */,
+				AC125D35195949CE00E90D74 /* Frameworks */,
+				AC125D36195949CE00E90D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC125D3E195949CE00E90D74 /* PBXTargetDependency */,
+			);
+			name = TextViewNestedInTableDemoTests;
+			productName = TextViewNestedInTableDemoTests;
+			productReference = AC125D38195949CE00E90D74 /* TextViewNestedInTableDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC125D0F195949CE00E90D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sunydea;
+				TargetAttributes = {
+					AC125D37195949CE00E90D74 = {
+						TestTargetID = AC125D16195949CE00E90D74;
+					};
+				};
+			};
+			buildConfigurationList = AC125D12195949CE00E90D74 /* Build configuration list for PBXProject "TextViewNestedInTableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC125D0E195949CE00E90D74;
+			productRefGroup = AC125D18195949CE00E90D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC125D16195949CE00E90D74 /* TextViewNestedInTableDemo */,
+				AC125D37195949CE00E90D74 /* TextViewNestedInTableDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC125D15195949CE00E90D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D33195949CE00E90D74 /* Images.xcassets in Resources */,
+				AC125D5519594FA100E90D74 /* RootTableViewCell.xib in Resources */,
+				AC125D25195949CE00E90D74 /* InfoPlist.strings in Resources */,
+				AC125D2E195949CE00E90D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC125D36195949CE00E90D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D44195949CE00E90D74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC125D13195949CE00E90D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D31195949CE00E90D74 /* ViewController.m in Sources */,
+				AC125D5419594FA100E90D74 /* RootTableViewCell.m in Sources */,
+				AC125D2B195949CE00E90D74 /* AppDelegate.m in Sources */,
+				AC125D27195949CE00E90D74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC125D34195949CE00E90D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC125D46195949CE00E90D74 /* TextViewNestedInTableDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC125D3E195949CE00E90D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC125D16195949CE00E90D74 /* TextViewNestedInTableDemo */;
+			targetProxy = AC125D3D195949CE00E90D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC125D23195949CE00E90D74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC125D24195949CE00E90D74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC125D2C195949CE00E90D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC125D2D195949CE00E90D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC125D42195949CE00E90D74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC125D43195949CE00E90D74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC125D47195949CE00E90D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC125D48195949CE00E90D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC125D4A195949CE00E90D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Prefix.pch";
+				INFOPLIST_FILE = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Reveal,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC125D4B195949CE00E90D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Prefix.pch";
+				INFOPLIST_FILE = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Reveal,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC125D4D195949CE00E90D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewNestedInTableDemo.app/TextViewNestedInTableDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextViewNestedInTableDemoTests/TextViewNestedInTableDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC125D4E195949CE00E90D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewNestedInTableDemo.app/TextViewNestedInTableDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewNestedInTableDemo/TextViewNestedInTableDemo-Prefix.pch";
+				INFOPLIST_FILE = "TextViewNestedInTableDemoTests/TextViewNestedInTableDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC125D12195949CE00E90D74 /* Build configuration list for PBXProject "TextViewNestedInTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC125D47195949CE00E90D74 /* Debug */,
+				AC125D48195949CE00E90D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC125D49195949CE00E90D74 /* Build configuration list for PBXNativeTarget "TextViewNestedInTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC125D4A195949CE00E90D74 /* Debug */,
+				AC125D4B195949CE00E90D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC125D4C195949CE00E90D74 /* Build configuration list for PBXNativeTarget "TextViewNestedInTableDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC125D4D195949CE00E90D74 /* Debug */,
+				AC125D4E195949CE00E90D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC125D0F195949CE00E90D74 /* Project object */;
+}
